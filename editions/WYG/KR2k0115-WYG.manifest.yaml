@@ -1,0 +1,56 @@
+canonical_identifier: bkk:krp/KR2k0115/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR2k0115/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 桂海虞衡志
+  date: '2015-08-24 22:46:06.332706'
+  source:
+    repository: kanripo
+    path: KR2k0115
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0115_000-WYG.yaml, hash: 'sha256:a196abd6a2cc6475a2443acb1922b1d28e4c51c67f499947c14f3f29ef163a39'}
+  - {seq: 1, filename: KR2k0115_001-WYG.yaml, hash: 'sha256:536dba48698d8ea88cb99628a9055b25bf16984834865030168e08596fb0c03a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0115_000-WYG.markers.yaml, hash: 'sha256:4aebe0405ab1e155d9a07f04bb14611c37364b139f85419644332c0071177a41'}
+  - {seq: 1, role: markers, filename: assets/KR2k0115_001-WYG.markers.yaml, hash: 'sha256:b7c4efa54b6c43b3788ee68149ff714db2c20c39a10758b0df3c17df0220781b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0115_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 684
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0115_WYG_000-4a
+    span:
+    - body
+    - 684
+    - 1028
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2k0115_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 10412
+  label: 桂海虞衡志
+  type: section
+  level: 1
+hash: sha256:96823727c45282b2f0988828e8929b160be52fc3a1a96e615c4fdd5b23d9846e

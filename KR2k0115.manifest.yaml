@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR2k0115/v1
+canonical_location: https://kanripo.org/bkk/KR2k0115/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 桂海虞衡志
+  date: '2015-08-24 22:46:06.332706'
+  source:
+    repository: kanripo
+    path: KR2k0115
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0115_000.yaml, hash: 'sha256:e90bd4b15618ce4bd4ae1b9149c0f1a240033e8da13261c0a2b112dace90bd10'}
+  - {seq: 1, filename: KR2k0115_001.yaml, hash: 'sha256:e152d9ed04ba4b1bbec422c5d10273cca4610f4ce8bb6531321505ffba5cecac'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0115_000.markers.yaml, hash: 'sha256:1bfb90f9f34e38b7c2f3221bde2d9126dc92d6e3d1acb40c9122ef34ace2719f'}
+  - {seq: 1, role: markers, filename: assets/KR2k0115_001.markers.yaml, hash: 'sha256:9778e5d61ed6e25e5668d586b64bdc0eb37acd91fd9f1d4977cea7f071154738'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0115_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 684
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0115_WYG_000-4a
+    span:
+    - body
+    - 684
+    - 1028
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2k0115_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 10412
+  label: 桂海虞衡志
+  type: section
+  level: 1
+hash: sha256:5ea43270713db60e8bee77d3e2d3c0daa8ca7322446a4802d4cc1ad80f6c6fe0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
