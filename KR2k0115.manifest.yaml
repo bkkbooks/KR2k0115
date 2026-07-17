@@ -23,8 +23,8 @@ assets:
   - {seq: 0, filename: KR2k0115_000.yaml, hash: 'sha256:e5a7e7710d26219fc50d90821130273a0e1d8b0661a727bfd9a134835f572e4c'}
   - {seq: 1, filename: KR2k0115_001.yaml, hash: 'sha256:59a194ec1c44457fdf444c4473489777fdb8998b6c7a5abee66cabdfe7128826'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR2k0115_000.markers.yaml, hash: 'sha256:5bb8381ae7d415fe821027b09f10ed3a00ae9f6892440944a00a50dfa5f31d8e'}
-  - {seq: 1, role: markers, filename: assets/KR2k0115_001.markers.yaml, hash: 'sha256:c0b1d45d9e2bf2c457deb3583b54d9ada7fc01bc8f4875bbff8f68272cf9e11b'}
+  - {seq: 0, role: markers, filename: assets/KR2k0115_000.markers.yaml, hash: 'sha256:0fe6c7f3214ca8648a5a76cf71857dc493e21f1cc9ca96f3b6ecb61c86329756'}
+  - {seq: 1, role: markers, filename: assets/KR2k0115_001.markers.yaml, hash: 'sha256:5f03eaac3334f4dfc552fc575040c77f036753761bdd9a8e08bfad1ce7d9edd7'}
 table_of_contents:
 - ref:
     seq: 0
@@ -56,7 +56,7 @@ table_of_contents:
   label: 桂海虞衡志
   type: section
   level: 1
-hash: sha256:56043029129875deac12356a273e34aa276a81060a61cdae10ecca371618d284
+hash: sha256:d98d5968c83871733a13752dccf849b5cdd7d6d187b3d0555a8492b16b3e6552
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
